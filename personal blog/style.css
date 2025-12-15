@@ -1,0 +1,122 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.navbar-section{
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid rgb(213, 206, 206);
+    justify-content: center;
+    gap: 270px;
+
+
+}
+.navbar-section a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.navbar-section ul{
+    display: flex;
+    margin-top: 25px;
+}
+.profile-section{
+    width: 700px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.profile-section button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.articles-section{
+    width: 700px;
+    margin: 30px auto;
+}
+.articles{
+    border: 1px solid rgb(213, 206, 206);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.founder-section{
+    width: 700px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.founder{
+    width: 320px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    
+}
+.Amit{
+    background-color: skyblue;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.Shreya{
+    background-color: blanchedalmond;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.founder-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 120px;
+}
+.form-section{
+    width: 670px;
+    margin: 30px auto;
+    border: 1px solid rgb(213, 206, 206);
+    padding: 20px;
+    border-radius: 15px;
+}
+.form-section input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(213, 206, 206);
+}
+.input-area{
+    display: flex;
+    gap: 5px;
+}
+.form-section textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(213, 206, 206);
+    height: 100px;
+    margin-top: 10px;
+}
+.form-section button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
