@@ -9,7 +9,8 @@ body{
     margin: auto;
     border-bottom: 1px solid rgb(213, 206, 206);
     justify-content: center;
-    gap: 270px;
+    justify-content: space-evenly ;
+    /* gap: 80px; */
 
 
 }
@@ -23,11 +24,14 @@ body{
     margin-top: 25px;
 }
 .profile-section{
-    width: 700px;
+    width: 50%;
     margin:30px auto;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+}
+.info{
+    width: 500px;
 }
 .profile-section button{
     padding: 10px 20px;
@@ -43,7 +47,7 @@ body{
     border-radius: 50%;
 }
 .articles-section{
-    width: 700px;
+    width: 50%;
     margin: 30px auto;
 }
 .articles{
@@ -53,10 +57,11 @@ body{
     border-radius: 15px;
 }
 .founder-section{
-    width: 700px;
+    width: 50%;
     margin: auto;
     margin-top: 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -66,6 +71,7 @@ body{
     text-align: center;
     position: relative;
     padding: 10px;
+    margin-bottom: 40px;
     
 }
 .Amit{
@@ -87,16 +93,16 @@ body{
     left: 120px;
 }
 .form-section{
-    width: 670px;
+    width: 50%;
     margin: 30px auto;
     border: 1px solid rgb(213, 206, 206);
-    padding: 20px;
     border-radius: 15px;
 }
 .form-section input{
     width: 100%;
     padding: 15px;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+
     border-radius: 5px;
     border: 1px solid rgb(213, 206, 206);
 }
@@ -105,11 +111,11 @@ body{
     gap: 5px;
 }
 .form-section textarea{
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
     border: 1px solid rgb(213, 206, 206);
     height: 100px;
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px;
 }
 .form-section button{
     padding: 15px 25px;
@@ -118,5 +124,12 @@ body{
     background-color: blueviolet;
     color: white;
     cursor: pointer;
-    margin-top: 10px;
+    margin: 10px 10px 20px 10px;
 }
+.form-section h2{
+    margin-left: 20px;
+}
+.form-section p{
+    margin-left: 20px;
+}
+
